@@ -5,11 +5,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 
 import path from 'path';
+import { DetailsproductComponent } from './detailsproduct/detailsproduct.component';
 
 const routes: Routes = [
   {path:"navbar", component:NavbarComponent },
   {path:"product_Card",component:ProductCardComponent},
-  {path:"footer",component:FooterComponent}
+  {path:"footer",component:FooterComponent},
+  {path:"productdetails",component:DetailsproductComponent}
 ];
 
 @NgModule({
