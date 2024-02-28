@@ -6,12 +6,15 @@ import { ProductCardComponent } from './product-card/product-card.component';
 
 import path from 'path';
 import { DetailsproductComponent } from './detailsproduct/detailsproduct.component';
+import { TestdetailsComponent } from './testdetails/testdetails.component';
+
 
 const routes: Routes = [
   {path:"navbar", component:NavbarComponent },
   {path:"product_Card",component:ProductCardComponent},
   {path:"footer",component:FooterComponent},
-  {path:"productdetails",component:DetailsproductComponent}
+  {path:"productdetails",component:DetailsproductComponent},
+  {path:"testdetails",component:TestdetailsComponent}
 ];
 
 @NgModule({

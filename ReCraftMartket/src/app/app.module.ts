@@ -7,6 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsproductComponent } from './detailsproduct/detailsproduct.component';
+import { TestdetailsComponent } from './testdetails/testdetails.component';
+
+
+
 
 
 
@@ -17,7 +21,10 @@ import { DetailsproductComponent } from './detailsproduct/detailsproduct.compone
     ProductCardComponent,
     FooterComponent,
     DetailsproductComponent,
-  
+    TestdetailsComponent,
+ 
+
+
   ],
   imports: [
     BrowserModule,
