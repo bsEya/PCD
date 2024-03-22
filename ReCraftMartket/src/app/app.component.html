@@ -2,8 +2,14 @@
 <app-navbar></app-navbar>
 <app-product-card></app-product-card>
 
-
-<app-detailsproduct></app-detailsproduct>
-<app-testdetails></app-testdetails>
-
-<app-footer></app-footer>
+<!--
+<div *ngFor="let product of products">
+  <app-cardtest [product]="product"></app-cardtest>
+</div>
+-->
+<app-newcomp></app-newcomp>
+<!--<app-detailsproduct></app-detailsproduct>-->
+<!--<app-testdetails></app-testdetails>-->
+<button (click)="go('app-detailsproduct')">plz</button>
+<app-componentb></app-componentb>
+<!--<app-footer></app-footer>-->

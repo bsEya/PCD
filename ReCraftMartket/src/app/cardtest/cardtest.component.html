@@ -1,0 +1,15 @@
+<p>cardtest works!</p>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{ product.name }}</h5>
+    <p class="card-text">{{ product.description }}</p>
+    <button (click)="toggleDetails()">Read more</button>
+    <div *ngIf="showDetails">
+      <!-- Additional details -->
+      <p>Number of likes: {{ product.likes }}</p>
+      <p>Icon for comments</p>
+      <p>Icon for shop</p>
+    </div>
+  </div>
+</div>
+

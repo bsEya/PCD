@@ -8,6 +8,10 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsproductComponent } from './detailsproduct/detailsproduct.component';
 import { TestdetailsComponent } from './testdetails/testdetails.component';
+import { CardtestComponent } from './cardtest/cardtest.component';
+import { NewcompComponent } from './newcomp/newcomp.component';
+import { ComponentaComponent } from './componenta/componenta.component';
+import { ComponentbComponent } from './componentb/componentb.component';
 
 
 
@@ -22,7 +26,12 @@ import { TestdetailsComponent } from './testdetails/testdetails.component';
     FooterComponent,
     DetailsproductComponent,
     TestdetailsComponent,
- 
+    CardtestComponent,
+    NewcompComponent,
+    ComponentaComponent,
+    ComponentbComponent,
+
+
 
 
   ],

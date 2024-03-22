@@ -41,6 +41,8 @@ h2::after {
 	text-align: center;
 	position: relative;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+  height: 400px; /* Set the desired fixed height for all cards */
+    overflow: hidden; /* Optional: Hide any overflow content */
 }
 .carousel .item .img-box {
 	height: 120px;
@@ -160,4 +162,23 @@ h2::after {
 	font-size: 14px;
 	color: #ffc000;
 }
+.carousel .thumb-content {
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    right: 15px;
+}
+
+.carousel .thumb-content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.thumb-wrapper .star-rating  {
+	 margin-top: 1px; /* Exemple de marge en haut */
+  margin-bottom: 10px;
+}
+
+
+
 
